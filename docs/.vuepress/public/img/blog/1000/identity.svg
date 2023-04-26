@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="973.38745"
+   height="720"
+   overflow="hidden"
+   version="1.1"
+   id="svg69"
+   sodipodi:docname="identity.svg"
+   inkscape:version="1.2-beta (1b65182ce9, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview71"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.67838057"
+     inkscape:cx="527.72738"
+     inkscape:cy="362.62831"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-5"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg69" />
+  <defs
+     id="defs5" />
+  <rect
+     x="0"
+     y="0"
+     width="973.38745"
+     height="720"
+     fill="#ffffff"
+     id="rect7"
+     style="stroke-width:0.872043" />
+  <rect
+     x="55.468491"
+     y="229.5"
+     width="860"
+     height="193"
+     stroke="#70ad47"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#ffffff"
+     id="rect9" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text11"
+     x="418.90851"
+     y="275">Identity Store</text>
+  <rect
+     x="55.468491"
+     y="27.500099"
+     width="860"
+     height="193"
+     stroke="#70ad47"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#ffffff"
+     id="rect13" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text15"
+     x="400.81848"
+     y="73">Identity Manager</text>
+  <path
+     d="m 86.468491,125.5 c 0,-6.075 4.925,-11 11,-11 H 264.46849 c 6.075,0 11,4.925 11,11 v 44 c 0,6.075 -4.925,11 -11,11 H 97.468491 c -6.075,0 -11,-4.925 -11,-11 z"
+     stroke="#2f528f"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#4472c4"
+     fill-rule="evenodd"
+     id="path17" />
+  <text
+     fill="#ffffff"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text19"
+     x="111.59749"
+     y="155">User Manager</text>
+  <path
+     d="m 391.46849,125.5 c 0,-6.075 4.925,-11 11,-11 h 167 c 6.075,0 11,4.925 11,11 v 44 c 0,6.075 -4.925,11 -11,11 h -167 c -6.075,0 -11,-4.925 -11,-11 z"
+     stroke="#ae5a21"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#ed7d31"
+     fill-rule="evenodd"
+     id="path21" />
+  <text
+     fill="#ffffff"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text23"
+     x="417.20551"
+     y="155">Role Manager</text>
+  <path
+     d="m 695.46849,125.5 c 0,-6.075 4.925,-11 11,-11 h 167 c 6.075,0 11,4.925 11,11 v 44 c 0,6.075 -4.925,11 -11,11 h -167 c -6.075,0 -11,-4.925 -11,-11 z"
+     stroke="#787878"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#a5a5a5"
+     fill-rule="evenodd"
+     id="path25" />
+  <text
+     fill="#ffffff"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text27"
+     x="710.90253"
+     y="155">Sign in Manager</text>
+  <path
+     d="m 86.468491,325.667 c 0,-6.167 5,-11.167 11.167,-11.167 H 264.30149 c 6.167,0 11.167,5 11.167,11.167 v 44.666 c 0,6.168 -5,11.167 -11.167,11.167 H 97.635491 c -6.167,0 -11.167,-4.999 -11.167,-11.167 z"
+     stroke="#2f528f"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#4472c4"
+     fill-rule="evenodd"
+     id="path29" />
+  <text
+     fill="#ffffff"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text31"
+     x="153.70448"
+     y="355">Users</text>
+  <path
+     d="m 291.46849,325.667 c 0,-6.167 5,-11.167 11.167,-11.167 h 166.666 c 6.167,0 11.167,5 11.167,11.167 v 44.666 c 0,6.168 -5,11.167 -11.167,11.167 h -166.666 c -6.167,0 -11.167,-4.999 -11.167,-11.167 z"
+     stroke="#41719c"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#5b9bd5"
+     fill-rule="evenodd"
+     id="path33" />
+  <text
+     fill="#ffffff"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text35"
+     x="327.94147"
+     y="355">User Claims</text>
+  <path
+     d="m 700.46849,325.667 c 0,-6.167 5,-11.167 11.167,-11.167 h 165.666 c 6.167,0 11.167,5 11.167,11.167 v 44.666 c 0,6.167 -5,11.167 -11.167,11.167 h -165.666 c -6.167,0 -11.167,-5 -11.167,-11.167 z"
+     stroke="#787878"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#a5a5a5"
+     fill-rule="evenodd"
+     id="path37" />
+  <text
+     fill="#ffffff"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text39"
+     x="737.91449"
+     y="355">User Logins</text>
+  <path
+     d="m 495.46849,325.667 c 0,-6.167 5,-11.167 11.167,-11.167 h 166.666 c 6.167,0 11.167,5 11.167,11.167 v 44.666 c 0,6.168 -5,11.167 -11.167,11.167 h -166.666 c -6.167,0 -11.167,-4.999 -11.167,-11.167 z"
+     stroke="#ae5a21"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#ed7d31"
+     fill-rule="evenodd"
+     id="path41" />
+  <text
+     fill="#ffffff"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text43"
+     x="563.5495"
+     y="355">Roles</text>
+  <path
+     d="m 418.46849,602.25 c 0,8.699 30.221,15.75 67.5,15.75 37.279,0 67.5,-7.051 67.5,-15.75 v 94.5 c 0,8.699 -30.221,15.75 -67.5,15.75 -37.279,0 -67.5,-7.051 -67.5,-15.75 z"
+     fill-rule="evenodd"
+     id="path45" />
+  <path
+     d="m 418.46849,602.25 c 0,-8.698 30.221,-15.75 67.5,-15.75 37.279,0 67.5,7.052 67.5,15.75 0,8.699 -30.221,15.75 -67.5,15.75 -37.279,0 -67.5,-7.051 -67.5,-15.75 z"
+     fill="#666666"
+     fill-rule="evenodd"
+     id="path47" />
+  <path
+     d="m 553.46849,602.25 c 0,8.699 -30.221,15.75 -67.5,15.75 -37.279,0 -67.5,-7.051 -67.5,-15.75 0,-8.698 30.221,-15.75 67.5,-15.75 37.279,0 67.5,7.052 67.5,15.75 v 94.5 c 0,8.699 -30.221,15.75 -67.5,15.75 -37.279,0 -67.5,-7.051 -67.5,-15.75 v -94.5"
+     stroke="#000000"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="none"
+     fill-rule="evenodd"
+     id="path49" />
+  <text
+     fill="#ffffff"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text51"
+     x="439.69849"
+     y="665">Database</text>
+  <path
+     d="m 391.46849,479.5 c 0,-6.075 4.925,-11 11,-11 h 167 c 6.075,0 11,4.925 11,11 v 44 c 0,6.075 -4.925,11 -11,11 h -167 c -6.075,0 -11,-4.925 -11,-11 z"
+     stroke="#bc8c00"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#ffc000"
+     fill-rule="evenodd"
+     id="path53" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text55"
+     x="427.28149"
+     y="494">Data Access</text>
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text57"
+     x="440.93549"
+     y="523">(EF Core)</text>
+  <path
+     d="m 303.46849,240.5 h 15 v -50 h 30 v 50 h 15 l -30,30 z"
+     stroke="#507e32"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#70ad47"
+     fill-rule="evenodd"
+     id="path59" />
+  <path
+     d="m 608.46849,241 h 14.75 v -50.5 h 29.5 V 241 h 14.75 l -29.5,29.5 z"
+     stroke="#507e32"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#70ad47"
+     fill-rule="evenodd"
+     id="path61" />
+  <path
+     d="m 455.46849,444.5 h 15 v -50 h 30 v 50 h 15 l -30,30 z"
+     stroke="#507e32"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#70ad47"
+     fill-rule="evenodd"
+     id="path63" />
+  <path
+     d="m 455.46849,582.5 h 15 v -50 h 30 v 50 h 15 l -30,30 z"
+     stroke="#507e32"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#70ad47"
+     fill-rule="evenodd"
+     id="path65" />
+</svg>
