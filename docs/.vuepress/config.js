@@ -41,15 +41,17 @@ module.exports = {
           { text: 'Emoji表情', link: '/pages/ebac98/' },
         ]
       },
-      { text: '🌈C#教程', link: '/pages/9d25e7/' ,items:[
-        { text: 'C# 12', link: '/pages/bc24ee/' },
-        { text: 'C# 11', link: '/pages/e03472/' },
-        { text: 'C# 10', link: '/pages/51af19/' },
-        { text: 'C# 9.0', link: '/pages/e6969f/' },
-        { text: 'C# 8.0', link: '/pages/9199c7/' },
-        { text: 'C# 早期版本', link: '/pages/43ca11/' },
-        { text: 'C# 教程', link: '/pages/9d25e7/' },
-      ]},
+      {
+        text: '🌈C#教程', link: '/pages/9d25e7/', items: [
+          { text: 'C# 12', link: '/pages/bc24ee/' },
+          { text: 'C# 11', link: '/pages/e03472/' },
+          { text: 'C# 10', link: '/pages/51af19/' },
+          { text: 'C# 9.0', link: '/pages/e6969f/' },
+          { text: 'C# 8.0', link: '/pages/9199c7/' },
+          { text: 'C# 早期版本', link: '/pages/43ca11/' },
+          { text: 'C# 教程', link: '/pages/9d25e7/' },
+        ]
+      },
       {
         text: '🎉.NET生态', link: '/pages/b87c52/', items: [
           { text: 'ORM', link: '/pages/0ebd02/' },
@@ -64,42 +66,47 @@ module.exports = {
           { text: '网关', link: '/pages/a6a3ef/' },
           { text: 'GraphQL', link: '/pages/c05a45/' },
           { text: '更多', link: '/pages/f04f14/' },
-        ]},
+        ]
+      },
       { text: '🚀架构', link: '/pages/f8be69/' },
       { text: '🛠️工具|部署', link: '/pages/798a98/' },
-      { text: '🌎开源项目', link: '/pages/614647/', items: [
-        { text: '全部', link: '/pages/614647/' },
-        { text: 'C#', link: '/pages/34d5ae/' },
-        { text: 'Java', link: '/pages/bc455d/' },
-        { text: 'Golang', link: '/pages/3cfb64/' },
-        { text: 'Python', link: '/pages/e60064/' },
-        { text: 'PHP', link: '/pages/a6e9c3/' },
-        { text: 'Rust', link: '/pages/6a3ff4/' },
-        { text: 'Nodejs', link: '/pages/613b26/' },
-        { text: 'Deno', link: '/pages/7b5e0c/' },
-        { text: 'CSS', link: '/pages/0ab226/' },
-        { text: 'Dart', link: '/pages/96c3f5/' },
-        { text: 'Shell', link: '/pages/a9ac3e/' },
-        { text: 'Docker', link: '/pages/102f47/' },
-        { text: 'C++', link: '/pages/71fa89/' },
-        { text: 'React', link: '/pages/fcca74/' },
-        { text: 'Vue', link: '/pages/56df7c/' },
-        { text: '小程序', link: '/pages/7f90dd/' },
-        { text: 'TypeScript', link: '/pages/900af8/' },
-        { text: 'JavaScript', link: '/pages/308114/' },
-        { text: '其他', link: '/pages/b25dff/' },
-      ]},
-      { text: '💯面试宝典', link: '/pages/86a4e2/', items: [
-        { text: 'AspNetCore面试题', link: '/pages/86a4e2/' },
-        { text: 'Elasticsearch面试题', link: '/pages/a567cd/' },
-        { text: 'MongoDB面试题', link: '/pages/5201b9/' },
-        { text: 'MySql面试题', link: '/pages/43b4dd/' },
-        { text: 'Nginx面试题', link: '/pages/27153d/' },
-        { text: 'RabbitMQ面试题', link: '/pages/d74e41/' },
-        { text: 'Redis面试题', link: '/pages/97e5f1/' },
-        { text: '设计模式', link: '/pages/51830e/' },
-        { text: '微服务', link: '/pages/11e99f/' },
-      ]},
+      {
+        text: '🌎开源项目', link: '/pages/614647/', items: [
+          { text: '全部', link: '/pages/614647/' },
+          { text: 'C#', link: '/pages/34d5ae/' },
+          { text: 'Java', link: '/pages/bc455d/' },
+          { text: 'Golang', link: '/pages/3cfb64/' },
+          { text: 'Python', link: '/pages/e60064/' },
+          { text: 'PHP', link: '/pages/a6e9c3/' },
+          { text: 'Rust', link: '/pages/6a3ff4/' },
+          { text: 'Nodejs', link: '/pages/613b26/' },
+          { text: 'Deno', link: '/pages/7b5e0c/' },
+          { text: 'CSS', link: '/pages/0ab226/' },
+          { text: 'Dart', link: '/pages/96c3f5/' },
+          { text: 'Shell', link: '/pages/a9ac3e/' },
+          { text: 'Docker', link: '/pages/102f47/' },
+          { text: 'C++', link: '/pages/71fa89/' },
+          { text: 'React', link: '/pages/fcca74/' },
+          { text: 'Vue', link: '/pages/56df7c/' },
+          { text: '小程序', link: '/pages/7f90dd/' },
+          { text: 'TypeScript', link: '/pages/900af8/' },
+          { text: 'JavaScript', link: '/pages/308114/' },
+          { text: '其他', link: '/pages/b25dff/' },
+        ]
+      },
+      {
+        text: '💯面试宝典', link: '/pages/86a4e2/', items: [
+          { text: 'AspNetCore面试题', link: '/pages/86a4e2/' },
+          { text: 'Elasticsearch面试题', link: '/pages/a567cd/' },
+          { text: 'MongoDB面试题', link: '/pages/5201b9/' },
+          { text: 'MySql面试题', link: '/pages/43b4dd/' },
+          { text: 'Nginx面试题', link: '/pages/27153d/' },
+          { text: 'RabbitMQ面试题', link: '/pages/d74e41/' },
+          { text: 'Redis面试题', link: '/pages/97e5f1/' },
+          { text: '设计模式', link: '/pages/51830e/' },
+          { text: '微服务', link: '/pages/11e99f/' },
+        ]
+      },
       { text: '🧑‍💻.NET Blog', link: '/pages/a03e5f/' },
       { text: '💖赞助', link: '/pages/347fdd/' },
     ],
@@ -161,7 +168,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2019, // 博客创建年份
-      copyrightInfo: '一个大西瓜 | MIT License', // 博客版权信息，支持a标签
+      copyrightInfo: '一个大西瓜 | MIT License | <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023013501号</a>', // 博客版权信息，支持a标签
     },
     htmlModules,
   },
