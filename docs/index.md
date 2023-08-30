@@ -83,15 +83,18 @@ postList: none
   bgColor: '#9415bf'
   textColor: '#ffffff'
 - name: .NET API 目录查询
+  desc: .NET API Catalog
   link: https://apisof.net/catalog
   bgColor: '#9415bf'
   textColor: '#ffffff'
 - name: .NET 在线源码
+  desc: .NET Source Browser
   link: https://source.dot.net/
   bgColor: '#9415bf'
   textColor: '#ffffff'
-- name: dnSpy
-  link: https://github.com/0xd4d/dnSpy
+- name: Visual Studio 文档
+  desc: 宇宙第一IDE
+  link: https://learn.microsoft.com/zh-cn/visualstudio/windows
   bgColor: '#9415bf'
   textColor: '#ffffff'
 ```
