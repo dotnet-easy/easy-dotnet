@@ -15,14 +15,15 @@ module.exports = {
     ['meta', { name: 'keywords', content: '.net,c#,doc,easy,tool' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
 
-    ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
-    ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
+    // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
+    // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
   ],
 
   // 主题配置
   themeConfig: {
     nav: [
       { text: '🏠首页', link: '/' },
+      { text: '🚀知识地图', link: '/pages/f8be69/' },
       {
         text: '🎖️最全工具类', link: '/pages/52d5c3/', items: [
           { text: '设计初衷', link: '/pages/52d5c3/' },
@@ -68,8 +69,39 @@ module.exports = {
           { text: '更多', link: '/pages/f04f14/' },
         ]
       },
-      { text: '🚀架构', link: '/pages/f8be69/' },
-      { text: '🛠️工具|部署', link: '/pages/798a98/' },
+      { text: '🛠️工具|部署', link: '/pages/e50dff/', items: [
+          { text: 'Dokcer', link: '/pages/e50dff/' , items: [
+              { text: '简介', link: '/pages/e50dff/' },
+              { text: 'Adminer', link: '/pages/3597e2/' },
+              { text: 'Apisix', link: '/pages/fbe42b/' },
+              { text: 'Apollo', link: '/pages/272684/' },
+              { text: 'Cassandra', link: '/pages/01958e/' },
+              { text: 'Cerebro', link: '/pages/7e58c5/' },
+              { text: 'ClickHouse', link: '/pages/3b4977/' },
+              { text: 'Consul', link: '/pages/3d230b/' },
+              { text: 'EasyMock', link: '/pages/ca4b88/' },
+              { text: 'Elasticsearch', link: '/pages/18fff0/' },
+              { text: 'Emqx', link: '/pages/d93c0b/' },
+              { text: 'FastDFS', link: '/pages/7bfded/' },
+              { text: 'Flink', link: '/pages/53b154/' },
+              { text: 'Gitlab', link: '/pages/83a3e2/' },
+              { text: 'Jrebel', link: '/pages/8e9d93/' },
+              { text: 'MariaDB', link: '/pages/ee069d/' },
+              { text: 'MySQL', link: '/pages/cff07b/' },
+              { text: 'Percona', link: '/pages/862a97/' },
+              { text: 'Phpmyadmin', link: '/pages/a560de/' },
+              { text: 'PostgreSQL', link: '/pages/230ca1/' },
+              { text: 'Redis', link: '/pages/be7f5d/' },
+            ]
+          },
+          { text: 'Linux', link: '/pages/aa794b/',items: [
+            { text: '查看Linux系统信息', link: '/pages/aa794b/' },
+            { text: 'CentOS7调整磁盘分区', link: '/pages/2cbf35/' },
+            { text: 'IO压测', link: '/pages/42cda4/' },
+            { text: '图形化监控工具Cockpit', link: '/pages/71dd10/' },
+          ] },
+        ] 
+      },
       {
         text: '🌎开源项目', link: '/pages/614647/', items: [
           { text: '全部', link: '/pages/614647/' },

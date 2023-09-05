@@ -69,32 +69,32 @@ postList: none
 #   textColor: '#2A3344'
 - name: .NET官网
   desc: 🚀构建新式应用和强大的云服务的免费开放源代码跨平台框架。
-  link: https://dotnet.microsoft.com/zh-cn/
+  link: https://dotnet.microsoft.com/zh-cn/?WT.mc_id=DT-MVP-5004310
   bgColor: '#9415bf'
   textColor: '#ffffff'
 - name: ASP.NET 文档
   desc: 使用 ASP.NET Core 创建快速、安全、跨平台和基于云的 Web 应用和服务。 
-  link: https://learn.microsoft.com/zh-cn/aspnet/core
+  link: https://learn.microsoft.com/zh-cn/aspnet/core?WT.mc_id=DT-MVP-5004310
   bgColor: '#9415bf'
   textColor: '#ffffff'
 - name: .NET 开发者社区
   desc: 建立连接!与全球数百万开发人员一起构建应用并参与 .NET。
-  link: https://dotnet.microsoft.com/zh-cn/platform/community
+  link: https://dotnet.microsoft.com/zh-cn/platform/community?WT.mc_id=DT-MVP-5004310
   bgColor: '#9415bf'
   textColor: '#ffffff'
 - name: .NET API 目录查询
   desc: .NET API Catalog
-  link: https://apisof.net/catalog
+  link: https://apisof.net/catalog?WT.mc_id=DT-MVP-5004310
   bgColor: '#9415bf'
   textColor: '#ffffff'
 - name: .NET 在线源码
   desc: .NET Source Browser
-  link: https://source.dot.net/
+  link: https://source.dot.net/?WT.mc_id=DT-MVP-5004310
   bgColor: '#9415bf'
   textColor: '#ffffff'
 - name: Visual Studio 文档
   desc: 宇宙第一IDE
-  link: https://learn.microsoft.com/zh-cn/visualstudio/windows
+  link: https://learn.microsoft.com/zh-cn/visualstudio/windows?WT.mc_id=DT-MVP-5004310
   bgColor: '#9415bf'
   textColor: '#ffffff'
 ```
@@ -125,7 +125,7 @@ postList: none
 
 
 <!-- AD -->
-<div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
+<!-- <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div> -->
 <style>
   .page-wwads{
     width:100%!important;
