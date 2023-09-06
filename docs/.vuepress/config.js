@@ -23,7 +23,20 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '🏠首页', link: '/' },
-      { text: '🚀知识地图', link: '/pages/f8be69/' },
+      { text: '🚀知识地图', link: '/pages/f8be69/', items:[
+          { text: '知识地图', link: '/pages/f8be69/' },
+          { text: '源码脑图', link: '/pages/8448ab/', items:[
+              { text: '总览', link: '/pages/8448ab/' },
+              { text: 'Program', link: '/pages/372b2d/' },
+              { text: 'WebApplication', link: '/pages/cb2fbc/' },
+              { text: 'Host主机', link: '/pages/78c443/' },
+              { text: 'WebHost主机', link: '/pages/840f86/' },
+              { text: '依赖注入', link: '/pages/0d115d/' },
+              { text: 'Autofac', link: '/pages/e2d1de/' },
+            ] 
+          },
+        ] 
+      },
       {
         text: '🎖️最全工具类', link: '/pages/52d5c3/', items: [
           { text: '设计初衷', link: '/pages/52d5c3/' },
