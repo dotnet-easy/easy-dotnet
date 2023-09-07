@@ -38,8 +38,8 @@ module.exports = {
         ] 
       },
       {
-        text: '🎖️最全工具类', link: '/pages/52d5c3/', items: [
-          { text: '设计初衷', link: '/pages/52d5c3/' },
+        text: '🎖️最全工具类', link: '/pages/easytool/', items: [
+          { text: '设计初衷', link: '/pages/easytool/' },
           { text: '克隆', link: '/pages/dc4434/' },
           { text: '类型转关', link: '/pages/24d03b/' },
           { text: '日期时间', link: '/pages/cb98e6/' },
