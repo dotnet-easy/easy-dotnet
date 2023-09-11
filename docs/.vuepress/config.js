@@ -33,6 +33,9 @@ module.exports = {
               { text: 'WebHost主机', link: '/pages/840f86/' },
               { text: '依赖注入', link: '/pages/0d115d/' },
               { text: 'Autofac', link: '/pages/e2d1de/' },
+              { text: 'Middleware中间件', link: '/pages/899977/' },
+              { text: 'RateLimiter限制速率', link: '/pages/5991be/' },
+              { text: '响应缓存、请求解压缩', link: '/pages/bacc57/' },
             ] 
           },
         ] 
@@ -98,6 +101,7 @@ module.exports = {
               { text: 'FastDFS', link: '/pages/7bfded/' },
               { text: 'Flink', link: '/pages/53b154/' },
               { text: 'Gitlab', link: '/pages/83a3e2/' },
+              { text: 'Jenkins', link: '/pages/f90f99/' },
               { text: 'Jrebel', link: '/pages/8e9d93/' },
               { text: 'MariaDB', link: '/pages/ee069d/' },
               { text: 'MySQL', link: '/pages/cff07b/' },
