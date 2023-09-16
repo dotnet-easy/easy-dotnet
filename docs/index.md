@@ -82,7 +82,7 @@ notices: # 可选的
   textColor: '#ffffff'
 - name: ASP.NET 文档
   desc: 使用 ASP.NET Core 创建快速、安全、跨平台和基于云的 Web 应用和服务。 
-  link: https://learn.microsoft.com/zh-cn/aspnet/core?WT.mc_id=DT-MVP-5004310
+  link: https://learn.microsoft.com/zh-cn/aspnet/core/?view=aspnetcore-8.0&WT.mc_id=DT-MVP-5004310
   bgColor: '#9415bf'
   textColor: '#ffffff'
 - name: .NET 开发者社区
