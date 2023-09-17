@@ -23,9 +23,11 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '🏠首页', link: '/' },
-      { text: '🚀知识地图', link: '/pages/f8be69/', items:[
+      {
+        text: '🚀知识地图', link: '/pages/f8be69/', items: [
           { text: '知识地图', link: '/pages/f8be69/' },
-          { text: '源码脑图', link: '/pages/8448ab/', items:[
+          {
+            text: '源码脑图', link: '/pages/8448ab/', items: [
               { text: '总览', link: '/pages/8448ab/' },
               { text: 'Program', link: '/pages/372b2d/' },
               { text: 'WebApplication', link: '/pages/cb2fbc/' },
@@ -36,9 +38,9 @@ module.exports = {
               { text: 'Middleware中间件', link: '/pages/899977/' },
               { text: 'RateLimiter限制速率', link: '/pages/5991be/' },
               { text: '响应缓存、请求解压缩', link: '/pages/bacc57/' },
-            ] 
+            ]
           },
-        ] 
+        ]
       },
       {
         text: '🎖️最全工具类', link: '/pages/easytool/', items: [
@@ -85,8 +87,10 @@ module.exports = {
           { text: '更多', link: '/pages/f04f14/' },
         ]
       },
-      { text: '🛠️工具|部署', link: '/pages/e50dff/', items: [
-          { text: 'Dokcer', link: '/pages/e50dff/' , items: [
+      {
+        text: '🛠️工具|部署', link: '/pages/e50dff/', items: [
+          {
+            text: 'Docker', link: '/pages/e50dff/', items: [
               { text: '简介', link: '/pages/e50dff/' },
               { text: 'Adminer', link: '/pages/3597e2/' },
               { text: 'Apisix', link: '/pages/fbe42b/' },
@@ -111,13 +115,15 @@ module.exports = {
               { text: 'Redis', link: '/pages/be7f5d/' },
             ]
           },
-          { text: 'Linux', link: '/pages/aa794b/',items: [
-            { text: '查看Linux系统信息', link: '/pages/aa794b/' },
-            { text: 'CentOS7调整磁盘分区', link: '/pages/2cbf35/' },
-            { text: 'IO压测', link: '/pages/42cda4/' },
-            { text: '图形化监控工具Cockpit', link: '/pages/71dd10/' },
-          ] },
-        ] 
+          {
+            text: 'Linux', link: '/pages/aa794b/', items: [
+              { text: '查看Linux系统信息', link: '/pages/aa794b/' },
+              { text: 'CentOS7调整磁盘分区', link: '/pages/2cbf35/' },
+              { text: 'IO压测', link: '/pages/42cda4/' },
+              { text: '图形化监控工具Cockpit', link: '/pages/71dd10/' },
+            ]
+          },
+        ]
       },
       {
         text: '🌎开源项目', link: '/pages/614647/', items: [
