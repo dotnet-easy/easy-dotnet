@@ -72,7 +72,7 @@ module.exports = {
         ]
       },
       {
-        text: '🎉.NET生态', link: '/pages/b87c52/', items: [
+        text: '🎉.NET微服务', link: '/pages/b87c52/', items: [
           { text: 'ORM', link: '/pages/0ebd02/' },
           { text: '定时任务', link: '/pages/4e1237/' },
           { text: '日志', link: '/pages/e6f01f/' },
@@ -126,28 +126,7 @@ module.exports = {
         ]
       },
       {
-        text: '🌎开源项目', link: '/pages/614647/', items: [
-          { text: '全部', link: '/pages/614647/' },
-          { text: 'C#', link: '/pages/34d5ae/' },
-          { text: 'Java', link: '/pages/bc455d/' },
-          { text: 'Golang', link: '/pages/3cfb64/' },
-          { text: 'Python', link: '/pages/e60064/' },
-          { text: 'PHP', link: '/pages/a6e9c3/' },
-          { text: 'Rust', link: '/pages/6a3ff4/' },
-          { text: 'Nodejs', link: '/pages/613b26/' },
-          { text: 'Deno', link: '/pages/7b5e0c/' },
-          { text: 'CSS', link: '/pages/0ab226/' },
-          { text: 'Dart', link: '/pages/96c3f5/' },
-          { text: 'Shell', link: '/pages/a9ac3e/' },
-          { text: 'Docker', link: '/pages/102f47/' },
-          { text: 'C++', link: '/pages/71fa89/' },
-          { text: 'React', link: '/pages/fcca74/' },
-          { text: 'Vue', link: '/pages/56df7c/' },
-          { text: '小程序', link: '/pages/7f90dd/' },
-          { text: 'TypeScript', link: '/pages/900af8/' },
-          { text: 'JavaScript', link: '/pages/308114/' },
-          { text: '其他', link: '/pages/b25dff/' },
-        ]
+        text: '🌎生态圈', link: '/pages/awesome-dotnet/'
       },
       {
         text: '💯面试宝典', link: '/pages/86a4e2/', items: [
