@@ -28,7 +28,7 @@ notices: # 可选的
 
 <iframe width="100%" height="400" src="https://time.graphics/embed?v=1&id=593132" frameborder="0" allowfullscreen></iframe>
 <p align="center">
-  <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
+  <a class="become-sponsor" href="/pages/donate/">支持这个项目</a>
 </p>
 
 <style>
