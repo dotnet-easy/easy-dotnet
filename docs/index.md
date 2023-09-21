@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/logo.png
 heroText: Easy-DotNET
-tagline: 🚀.Net 全栈知识体系。完全开源,欢迎pr共建生态
+tagline: 🚀.Net 全栈知识体系。完全开源，欢迎一起参与共建生态
 actionText: 开始使用 →
 actionLink: /pages/easytool/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
@@ -28,7 +28,7 @@ notices: # 可选的
 
 <iframe width="100%" height="400" src="https://time.graphics/embed?v=1&id=593132" frameborder="0" allowfullscreen></iframe>
 <p align="center">
-  <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
+  <a class="become-sponsor" href="/pages/donate/">支持这个项目</a>
 </p>
 
 <style>
