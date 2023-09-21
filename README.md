@@ -13,6 +13,8 @@
 
 ## 快速上手
 
+- 推荐预先安装 `nodejs 16`
+
 ```bash
 # clone the project
 git clone https://github.com/786744873/easy-dotnet
