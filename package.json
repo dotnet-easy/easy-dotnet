@@ -2,8 +2,8 @@
   "name": "easy-dotnet",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "dev": "set NODE_OPTIONS=--max-old-space-size=8192 && vuepress dev docs",
+    "build": "set NODE_OPTIONS=--max-old-space-size=8192 && vuepress build docs",
     "deploy": "bash deploy.sh",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
     "editFm": "node utils/editFrontmatter.js"
