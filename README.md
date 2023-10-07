@@ -35,5 +35,5 @@ npm run dev # or yarn dev
 
 或者加入我们的交流群：参与贡献可以榜上留名💯
 
-<img align="center" src="./docs/.vuepress/public/img/qrcode/qun.png" style="cursor: zoom-in;">
+<img align="center" src="./docs/.vuepress/public/img/qrcode/*.png" style="cursor: zoom-in;">
 
