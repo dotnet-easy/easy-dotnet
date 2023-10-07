@@ -1,7 +1,7 @@
-# dotnet
+# easy-dotnet
 > A Simple Way to Learn. NET（活跃开发者聚集地）
 
-**微信： QQ群：
+**微信：ygdxg8657 （备注进群） QQ群：903210423（已满）543829648** 
 
 ## 介绍
 1. 这个开源项目的初衷是打造一个好用的、面向.NET程序员的 **`知识库`**。
@@ -17,10 +17,10 @@
 
 ```bash
 # clone the project
-git clone [https://github.com/bjrwx888/dotnet](https://github.com/bjrwx888/dotnet.git)
+git clone https://github.com/bjrwx888/dotnet
 
 # enter the project directory
-cd easy-dotnet
+cd dotnet
 
 # install dependency
 npm install --registry=https://repo.huaweicloud.com/repository/npm/ # or yarn install
@@ -35,5 +35,5 @@ npm run dev # or yarn dev
 
 或者加入我们的交流群：参与贡献可以榜上留名💯
 
-<img align="center" src="./docs/.vuepress/public/img/qrcode/*.png" style="cursor: zoom-in;">
+<img align="center" src="./docs/.vuepress/public/img/qrcode/*qun*.png" style="cursor: zoom-in;">
 

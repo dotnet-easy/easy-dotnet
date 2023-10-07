@@ -7,7 +7,7 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "Easy-DotNET",
+  title: "DotNET",
   description: '.Net 全栈知识体系',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -44,20 +44,27 @@ module.exports = {
       },
       {
         text: '🎖️最全工具类', link: '/pages/easytool/', items: [
-          { text: '设计初衷', link: '/pages/easytool/' },
-          { text: '克隆', link: '/pages/dc4434/' },
-          { text: '类型转换', link: '/pages/24d03b/' },
-          { text: '日期时间', link: '/pages/cb98e6/' },
-          { text: 'IO流', link: '/pages/d17650/' },
-          { text: '工具类', link: '/pages/403561/' },
-          { text: '语言特性', link: '/pages/a84b63/' },
-          { text: '集合类', link: '/pages/987eb4/' },
-          { text: 'Codec编码', link: '/pages/d68ded/' },
-          { text: '文本操作', link: '/pages/b8a1fd/' },
-          { text: '数学', link: '/pages/237e90/' },
-          { text: '图片', link: '/pages/af25d7/' },
-          { text: '网络', link: '/pages/5f9ee1/' },
-          { text: 'Emoji表情', link: '/pages/ebac98/' },
+          { text:'Easy-Tool',link:'/pages/easytool/',items:[
+            { text: '设计初衷', link: '/pages/easytool/' },
+            { text: '克隆', link: '/pages/dc4434/' },
+            { text: '类型转换', link: '/pages/24d03b/' },
+            { text: '日期时间', link: '/pages/cb98e6/' },
+            { text: 'IO流', link: '/pages/d17650/' },
+            { text: '工具类', link: '/pages/403561/' },
+            { text: '语言特性', link: '/pages/a84b63/' },
+            { text: '集合类', link: '/pages/987eb4/' },
+            { text: 'Codec编码', link: '/pages/d68ded/' },
+            { text: '文本操作', link: '/pages/b8a1fd/' },
+            { text: '数学', link: '/pages/237e90/' },
+            { text: '图片', link: '/pages/af25d7/' },
+            { text: '网络', link: '/pages/5f9ee1/' },
+            { text: 'Emoji表情', link: '/pages/ebac98/' },
+          ]},
+          {text:'Util',link:'/pages/util/',items:[
+            {text:'早期版本',link:'/pages/571c15/'},
+            {text:'功能介绍',link:'/pages/912c9b/'},
+            {text:'版本',link:'/pages/util/'},
+          ]}          
         ]
       },
       {
@@ -69,6 +76,7 @@ module.exports = {
           { text: 'C# 8.0', link: '/pages/9199c7/' },
           { text: 'C# 早期版本', link: '/pages/43ca11/' },
           { text: 'C# 教程', link: '/pages/9d25e7/' },
+          { text: '版本', link: '/pages/380473/' },
         ]
       },
       {
@@ -262,7 +270,7 @@ module.exports = {
       { text: '💖赞助', link: '/pages/347fdd/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: '/img/logo.png', // 导航栏logo
+    logo: '/img/logo2.png', // 导航栏logo
     repo: '786744873/easy-dotnet', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
@@ -294,8 +302,8 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-      name: '一个大西瓜', // 必需
-      href: 'https://github.com/786744873/easy-dotnet' // 可选的
+      name: 'bjrwx888', // 必需
+      href: 'https://github.com/bjrwx888/dotnet' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -303,12 +311,12 @@ module.exports = {
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:786744873@qq.com'
+          link: 'mailto:154400692@qq.com'
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/786744873/easy-dotnet'
+          link: 'https://github.com/bjrwx888/dotnet'
         },
         {
           iconClass: 'icon-gitee',
@@ -319,7 +327,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2019, // 博客创建年份
-      copyrightInfo: '一个大西瓜 | MIT License | <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023013501号</a>', // 博客版权信息，支持a标签
+      copyrightInfo: 'bjrwx888 | MIT License | <a href="https://beian.miit.gov.cn/" target="_blank">备案信息</a>', // 博客版权信息，支持a标签
     },
     htmlModules,
   },

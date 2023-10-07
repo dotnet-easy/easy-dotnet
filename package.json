@@ -1,5 +1,5 @@
 {
-  "name": "easy-dotnet",
+  "name": "dotnet",
   "version": "1.0.0",
   "scripts": {
     "dev": "set NODE_OPTIONS=--max-old-space-size=8192 && vuepress dev docs",
