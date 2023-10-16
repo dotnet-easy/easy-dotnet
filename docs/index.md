@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/logo.png
 heroText: Easy-DotNET
-tagline: 🚀.Net 全栈知识体系。完全开源,欢迎pr共建生态
+tagline: 🚀.Net 全栈知识体系。完全开源，欢迎一起参与共建生态
 actionText: 开始使用 →
 actionLink: /pages/easytool/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
@@ -28,7 +28,7 @@ notices: # 可选的
 
 <iframe width="100%" height="400" src="https://time.graphics/embed?v=1&id=593132" frameborder="0" allowfullscreen></iframe>
 <p align="center">
-  <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
+  <a class="become-sponsor" href="/pages/donate/">支持这个项目</a>
 </p>
 
 <style>
@@ -82,7 +82,7 @@ notices: # 可选的
   textColor: '#ffffff'
 - name: ASP.NET 文档
   desc: 使用 ASP.NET Core 创建快速、安全、跨平台和基于云的 Web 应用和服务。 
-  link: https://learn.microsoft.com/zh-cn/aspnet/core?WT.mc_id=DT-MVP-5004310
+  link: https://learn.microsoft.com/zh-cn/aspnet/core/?view=aspnetcore-8.0&WT.mc_id=DT-MVP-5004310
   bgColor: '#9415bf'
   textColor: '#ffffff'
 - name: .NET 开发者社区

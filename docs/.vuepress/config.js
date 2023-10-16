@@ -23,9 +23,11 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '🏠首页', link: '/' },
-      { text: '🚀知识地图', link: '/pages/f8be69/', items:[
+      {
+        text: '🚀知识地图', link: '/pages/f8be69/', items: [
           { text: '知识地图', link: '/pages/f8be69/' },
-          { text: '源码脑图', link: '/pages/8448ab/', items:[
+          {
+            text: '源码脑图', link: '/pages/8448ab/', items: [
               { text: '总览', link: '/pages/8448ab/' },
               { text: 'Program', link: '/pages/372b2d/' },
               { text: 'WebApplication', link: '/pages/cb2fbc/' },
@@ -36,9 +38,9 @@ module.exports = {
               { text: 'Middleware中间件', link: '/pages/899977/' },
               { text: 'RateLimiter限制速率', link: '/pages/5991be/' },
               { text: '响应缓存、请求解压缩', link: '/pages/bacc57/' },
-            ] 
+            ]
           },
-        ] 
+        ]
       },
       {
         text: '🎖️最全工具类', link: '/pages/easytool/', items: [
@@ -70,7 +72,7 @@ module.exports = {
         ]
       },
       {
-        text: '🎉.NET生态', link: '/pages/b87c52/', items: [
+        text: '🎉.NET微服务', link: '/pages/b87c52/', items: [
           { text: 'ORM', link: '/pages/0ebd02/' },
           { text: '定时任务', link: '/pages/4e1237/' },
           { text: '日志', link: '/pages/e6f01f/' },
@@ -85,8 +87,10 @@ module.exports = {
           { text: '更多', link: '/pages/f04f14/' },
         ]
       },
-      { text: '🛠️工具|部署', link: '/pages/e50dff/', items: [
-          { text: 'Dokcer', link: '/pages/e50dff/' , items: [
+      {
+        text: '🛠️工具|部署', link: '/pages/e50dff/', items: [
+          {
+            text: 'Docker', link: '/pages/e50dff/', items: [
               { text: '简介', link: '/pages/e50dff/' },
               { text: 'Adminer', link: '/pages/3597e2/' },
               { text: 'Apisix', link: '/pages/fbe42b/' },
@@ -111,36 +115,134 @@ module.exports = {
               { text: 'Redis', link: '/pages/be7f5d/' },
             ]
           },
-          { text: 'Linux', link: '/pages/aa794b/',items: [
-            { text: '查看Linux系统信息', link: '/pages/aa794b/' },
-            { text: 'CentOS7调整磁盘分区', link: '/pages/2cbf35/' },
-            { text: 'IO压测', link: '/pages/42cda4/' },
-            { text: '图形化监控工具Cockpit', link: '/pages/71dd10/' },
-          ] },
-        ] 
+          {
+            text: 'Linux', link: '/pages/aa794b/', items: [
+              { text: '查看Linux系统信息', link: '/pages/aa794b/' },
+              { text: 'CentOS7调整磁盘分区', link: '/pages/2cbf35/' },
+              { text: 'IO压测', link: '/pages/42cda4/' },
+              { text: '图形化监控工具Cockpit', link: '/pages/71dd10/' },
+            ]
+          },
+        ]
       },
       {
-        text: '🌎开源项目', link: '/pages/614647/', items: [
-          { text: '全部', link: '/pages/614647/' },
-          { text: 'C#', link: '/pages/34d5ae/' },
-          { text: 'Java', link: '/pages/bc455d/' },
-          { text: 'Golang', link: '/pages/3cfb64/' },
-          { text: 'Python', link: '/pages/e60064/' },
-          { text: 'PHP', link: '/pages/a6e9c3/' },
-          { text: 'Rust', link: '/pages/6a3ff4/' },
-          { text: 'Nodejs', link: '/pages/613b26/' },
-          { text: 'Deno', link: '/pages/7b5e0c/' },
-          { text: 'CSS', link: '/pages/0ab226/' },
-          { text: 'Dart', link: '/pages/96c3f5/' },
-          { text: 'Shell', link: '/pages/a9ac3e/' },
-          { text: 'Docker', link: '/pages/102f47/' },
-          { text: 'C++', link: '/pages/71fa89/' },
-          { text: 'React', link: '/pages/fcca74/' },
-          { text: 'Vue', link: '/pages/56df7c/' },
-          { text: '小程序', link: '/pages/7f90dd/' },
-          { text: 'TypeScript', link: '/pages/900af8/' },
-          { text: 'JavaScript', link: '/pages/308114/' },
-          { text: '其他', link: '/pages/b25dff/' },
+        text: '🌎生态', link: '/pages/awesome-dotnet/', items: [
+          { text: '总览', link: '/pages/awesome-dotnet/' },
+          { text: '列表', link: '/pages/application-frameworks/', items: [
+            { text: '算法数据结构', link: '/pages/Algorithms-and-Data-Structures/' },
+            { text: 'API', link: '/pages/api/' },
+            { text: '应用框架', link: '/pages/application-frameworks/' },
+            { text: '应用模板', link: '/pages/application-templates/' },
+            { text: '操作系统', link: '/pages/os/' },
+            { text: '工作流', link: '/pages/workflow/' },
+            { text: '入门套件', link: '/pages/start/' },
+            { text: '示例', link: '/pages/exanples/' },
+            { text: '人工智能', link: '/pages/artificial-intelligence/' },
+            { text: '程序集', link: '/pages/assembly-manipulation/' },
+            { text: 'Assets', link: '/pages/assets/' },
+            { text: '认证授权', link: '/pages/authentication-authorization/' },
+            { text: 'Blazor', link: '/pages/blazor/' },
+            { text: '区块链', link: '/pages/blockchain/' },
+            { text: '书籍', link: '/pages/book/' },
+            { text: '自动构建', link: '/pages/build-automation/' },
+            { text: '报表', link: '/pages/business-intelligence/' },
+            { text: '缓存', link: '/pages/caching/' },
+            { text: '日历', link: '/pages/calendar/' },
+            { text: '聊天', link: '/pages/chat/' },
+            { text: 'CLI', link: '/pages/cli/' },
+            { text: 'CLR', link: '/pages/clr/' },
+            { text: 'CMS', link: '/pages/cms/' },
+            { text: '代码分析和指标', link: '/pages/code-analysis-and-metrics/' },
+            { text: '代码片段', link: '/pages/code-snippets/' },
+            { text: '压缩', link: '/pages/compression/' },
+            { text: '持续集成', link: '/pages/continuous-integration/' },
+            { text: '密码学', link: '/pages/cryptography/' },
+            { text: '数据库', link: '/pages/database/' },
+            { text: '数据库驱动', link: '/pages/database-drivers/' },
+            { text: '日期时间', link: '/pages/datetime/' },
+            { text: '反编译', link: '/pages/decompilation/' },
+            { text: '部署', link: '/pages/deployment/' },
+            { text: 'DirectX', link: '/pages/directx/' },
+            { text: '分布式计算', link: '/pages/distributed-computing/' },
+            { text: 'DLR', link: '/pages/dlr/' },
+            { text: '文档', link: '/pages/documentation/' },
+            { text: '电商支付', link: '/pages/e-commerce-and-payments/' },
+            { text: '模拟器', link: '/pages/emulators/' },
+            { text: '环境管理', link: '/pages/environment-management/' },
+            { text: 'ETL', link: '/pages/etl/' },
+            { text: '事件消息', link: '/pages/event-aggregator-and-messenger/' },
+            { text: 'Exception', link: '/pages/exceptions/' },
+            { text: '扩展', link: '/pages/extensions/' },
+            { text: '函数式编程', link: '/pages/functional-programming/' },
+            { text: '游戏引擎', link: '/pages/game/' },
+            { text: 'GIS', link: '/pages/GIS/' },
+            { text: 'Git工具', link: '/pages/git-tools/' },
+            { text: '绘图', link: '/pages/graphics/' },
+            { text: 'GraphQL', link: '/pages/graphql/' },
+            { text: 'GUI', link: '/pages/gui/' },
+            { text: 'HTML-CSS', link: '/pages/html-css/' },
+            { text: 'HTTP', link: '/pages/http/' },
+            { text: 'IDE', link: '/pages/ide/' },
+            { text: '图片处理', link: '/pages/image-processing/' },
+            { text: '安装工具', link: '/pages/install-tools/' },
+            { text: '交互式编程', link: '/pages/interactive-programming/' },
+            { text: '国际化', link: '/pages/internationalization/' },
+            { text: '互操作性', link: '/pages/interoperability/' },
+            { text: 'IoC', link: '/pages/ioc/' },
+            { text: 'JS引擎', link: '/pages/javascript-engines/' },
+            { text: '日志', link: '/pages/logging/' },
+            { text: '机器学习和数据科学', link: '/pages/machine-learning-and-data-science/' },
+            { text: 'Markdown', link: '/pages/markdown/' },
+            { text: '邮件', link: '/pages/mail/' },
+            { text: '数学', link: '/pages/mathematics/' },
+            { text: '媒体', link: '/pages/media/' },
+            { text: '指标', link: '/pages/metrics/' },
+            { text: '微型框架', link: '/pages/micro-framework/' },
+            { text: '最小化器', link: '/pages/minification/' },
+            { text: 'MVVM', link: '/pages/mvvm/' },
+            { text: '网络', link: '/pages/networking/' },
+            { text: '对象映射', link: '/pages/object-to-object-mapping/' },
+            { text: 'Office', link: '/pages/office/' },
+            { text: 'OpenAI', link: '/pages/openai/' },
+            { text: 'ORM', link: '/pages/orm/' },
+            { text: '包管理器', link: '/pages/package-management/' },
+            { text: 'PDF', link: '/pages/pdf/' },
+            { text: '性能分析工具', link: '/pages/profiler/' },
+            { text: '协议', link: '/pages/protocols/' },
+            { text: '推送通知', link: '/pages/push-notifications/' },
+            { text: 'SQL构建器', link: '/pages/query-builders/' },
+            { text: '消息队列', link: '/pages/queue/' },
+            { text: 'RPC', link: '/pages/rpc/' },
+            { text: '响应式编程', link: '/pages/reactive-programming/' },
+            { text: '实时通信', link: '/pages/real-time-communications/' },
+            { text: '正则表达式', link: '/pages/regular-expression/' },
+            { text: '任务调度', link: '/pages/scheduling/' },
+            { text: 'SDK和API', link: '/pages/sdk-api/' },
+            { text: '搜索引擎', link: '/pages/search/' },
+            { text: '序列化', link: '/pages/serialization/' },
+            { text: 'SMS', link: '/pages/sms/' },
+            { text: '状态机', link: '/pages/state-machines/' },
+            { text: '静态站点生成', link: '/pages/static-site-generators/' },
+            { text: '强命名', link: '/pages/strong-naming/' },
+            { text: '风格指南', link: '/pages/style-guide/' },
+            { text: '模板引擎', link: '/pages/template-engine/' },
+            { text: '测试', link: '/pages/testing/' },
+            { text: '工具', link: '/pages/tools/' },
+            { text: '交易', link: '/pages/trading/' },
+            { text: 'UI自动测试', link: '/pages/ui-automation/' },
+            { text: 'Visual Studio 插件', link: '/pages/visual-studio-plugins/' },
+            { text: 'Web浏览器', link: '/pages/web-browsers/' },
+            { text: 'Web框架', link: '/pages/web-frameworks/' },
+            { text: 'WebServers', link: '/pages/web-servers/' },
+            { text: 'WebSocket', link: '/pages/websocket/' },
+            { text: 'Windows服务', link: '/pages/windows-services/' },
+            { text: 'WPF', link: '/pages/wpf/' },
+            { text: '解析器', link: '/pages/parser-library/' },
+            { text: '源码生成', link: '/pages/source-generator/' },
+            { text: '其他', link: '/pages/misc/' },
+            { text: '资源', link: '/pages/resources/' },
+          ]
+          },
         ]
       },
       {
